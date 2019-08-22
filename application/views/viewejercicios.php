@@ -7,7 +7,34 @@
    <title>Document</title>
 </head>
 <body>
-<form action="<?php echo base_url();?>index.php/Ejercicios456/estudiantes " method="post">
+<H1>Ejercicio 1</H1>
+<form action="<?php echo base_url();?>index.php/Ejercicios123/ejercicio1 " method="post">
+<input type="submit" value="validar">
+</form>
+<br>
+<H1>Ejercicio 2</H1>
+<form action="<?php echo base_url();?>index.php/Ejercicios123/ejercicio2 " method="post">
+   <input type="text" name="Numero" id="">
+   <input type="submit" value="validar">
+   </form>
+<br>
+<H1>Ejercicio 3</H1> 
+<form action="<?php echo base_url();?>index.php/Ejercicios123/ejercicio3 " method="post">
+   <input type="submit" value="validar">
+   </form>
+<br>
+<H1>Ejercicio 4</H1>
+<form action="<?php echo base_url();?>index.php/Ejercicios456/ejercicio4 " method="post">
+<input type="submit" value="validar">
+</form>
+<br>
+<H1>Ejercicio 5</H1>
+<form action="<?php echo base_url();?>index.php/Ejercicios456/ejercicio5 " method="post">
+<input type="submit" value="validar">
+</form>
+<br>
+<H1>Ejercicio 6</H1>
+<form action="<?php echo base_url();?>index.php/Ejercicios456/ejercicio6" method="post">
       <input type="number" name="numero1" placeholder="digite la nota de estudiante 1<br>">
       <input type="number" name="numero2" placeholder="digite la nota de estudiante 2<br>">
       <input type="number" name="numero3" placeholder="digite la nota de estudiante 3<br>">
@@ -35,5 +62,24 @@
       <input type="number" name="numero25" placeholder="digite la nota de estudiante 25<br>">
       <input type="submit" value="validar">
       </form>
+      <br>
+
+<h1> ejercicio 7  </h1>
+<Body>
+<form action="<?php echo base_url();?>index.php/Ejercicios789/ejercicio7 " method="post">
+<input type="number" name="numero1" placeholder="ingrese numero 1">
+<input type="number" name="numero2" placeholder="ingrese numero 2">
+<input type="number" name="numero3" placeholder="ingrese numero 3">
+<input type="number" name="numero4" placeholder="ingrese numero 4">
+<input type="number" name="numero5" placeholder="ingrese numero 5">
+<input type="number" name="numero6" placeholder="ingrese numero 6">
+<input type="number" name="numero7" placeholder="ingrese numero 7">
+<input type="number" name="numero8" placeholder="ingrese numero 8">
+<input type="submit" value="validar">
+</form>
+<br>  
+<h1>ejercicio 8<h1>
+<form action="<?php echo base_url(); ?>index.php/Ejercicios789/ejercicio8" method="post">
+	<button class="btn btn-primary" type="submit" name="numero">validar</button>
 </body>
 </html>

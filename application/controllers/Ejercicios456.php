@@ -1,14 +1,14 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-/*class Ejercicios456 extends CI_Controller {
+class Ejercicios456 extends CI_Controller {
 	
 	public function index()
 	{
 		$this->load->view('viewejercicio4');
 	}
 
-	public function pares($numero = NULL){
+	public function ejercicio4(){
       $numero = rand(1,100);
       echo ("<br>el numero es:  $numero");
       if ($numero%2==0){
@@ -18,16 +18,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
          echo ("<br>el $numero es impar");
          }
 	}
-}
-*/
-/*class Ejercicios456 extends CI_Controller {
-	
-	public function index()
-	{
-		$this->load->view('viewejercicio5');
-	}
 
-	public function menor($numero = NULL){
+public function ejercicio5(){
 
       $n1=rand();
       $n2=rand();
@@ -108,16 +100,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       }
    
 	}
-}
-*/
-class Ejercicios456 extends CI_Controller {
-	
-	public function index()
-	{
-		$this->load->view('viewejercicio6');
-	}
 
-	public function estudiantes($numero = NULL){
+	public function ejercicio6(){
       for ($i=0; $i < 26; $i++) { 
          echo ("$i,-") ;
       }
@@ -166,4 +150,6 @@ class Ejercicios456 extends CI_Controller {
       }
    }
 }
+
 ?>	
+<a href="javascript: history.go(-1)">Volver</a>
